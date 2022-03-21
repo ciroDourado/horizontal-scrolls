@@ -1,0 +1,117 @@
+html, body {
+	font-size: 16px;
+	margin : 0px;
+	padding: 0px;
+}
+
+.BackgroundTransparent {
+	background-color: transparent;
+}
+
+.MaxWidthFit {
+	max-width: fit-content;
+}
+
+.MaxWidth800 {
+	max-width: 50rem;
+}
+
+.MaxHeight672 {
+	max-height: 42rem;
+}
+
+.Width128 {
+	width: 8rem;
+}
+
+.Height128 {
+	height: 8rem;
+}
+
+.Width64 {
+	width: 4rem;
+}
+
+.Height64 {
+	height: 4rem;
+}
+
+.Height32 {
+	height: 2rem;
+}
+
+.ScreenHeight {
+	height: 100vh;
+}
+
+.ScreenWidth {
+	width: 100vw;
+}
+
+.MarginLeftAuto {
+	margin-left: auto;
+}
+
+.MarginRightAuto {
+	margin-right: auto;
+}
+
+.Block {
+	display: block;
+}
+
+.Flex {
+	display: flex;
+}
+
+.FlexColumn {
+	flex-direction: column;
+}
+
+.FlexRow {
+	flex-direction: row;
+}
+
+.FlexNeverShrink {
+	flex-shrink: 0;
+}
+
+.FlexTryShrink {
+	flex-shrink: 1;
+}
+
+.FlexNeverGrow {
+	flex-grow: 0;
+}
+
+.FlexTryGrow {
+	flex-grow: 1;
+}
+
+.MainAxisCenter {
+	justify-content: center;
+}
+
+.CrossAxisCenter {
+	align-items: center;
+}
+
+.CrossAxisStart {
+	align-items: flex-start;
+}
+
+.HorizontalScroll + .HorizontalScroll {
+	margin-top: 4rem;
+}
+
+.HorizontalScrollElement + .HorizontalScrollElement {
+	margin-left: 0.5rem;
+}
+
+.OverflowXScroll {
+	overflow-x: scroll;
+}
+
+.OverflowYScroll {
+	overflow-y: scroll;
+}
